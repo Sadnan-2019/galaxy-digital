@@ -4,13 +4,14 @@ const Products = () => {
   return (
     <div>
       <div className="container">
+        <h1 className="text-center py-4">Our Product</h1>
         <div className="row py-4 row-cols-1 row-cols-md-3 g-4">
           <div className="col">
             <div
               className="card h-100"
               data-aos="fade-right"
           //     data-aos-delay="5000"
-              data-aos-duration="1000"
+              data-aos-duration="3000"
             >
               <img
                 src="https://images.unsplash.com/photo-1484704849700-f032a568e944?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
@@ -30,7 +31,7 @@ const Products = () => {
               </div>
             </div>
           </div>
-          <div className="col " data-aos="fade-down" data-aos-duration="1000">
+          <div className="col " data-aos="fade-down" data-aos-duration="3000">
             <div className="card h-100">
               <img
                 src="https://images.unsplash.com/photo-1481207801830-97f0f9a1337e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
@@ -49,7 +50,7 @@ const Products = () => {
               </div>
             </div>
           </div>
-          <div className="col" data-aos="fade-left" data-aos-duration="1000">
+          <div className="col" data-aos="fade-left" data-aos-duration="3000">
             <div className="card h-100">
               <img
                 src="https://images.unsplash.com/photo-1516924962500-2b4b3b99ea02?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
