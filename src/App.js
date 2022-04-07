@@ -9,11 +9,15 @@ import Team from './components/Team/Team';
 function App() {
   return (
     <div className="">
-       <Header></Header>
+       <Header></Header> 
        <Sliders></Sliders>
+     
+       <Goal></Goal> 
        <Products></Products>
-       <Goal></Goal>
-       <Team></Team>
+      <Team></Team>  
+       {/* <Products></Products>
+      <Goal></Goal> 
+       <Team></Team> */}
     </div>
   );
 }

@@ -8,18 +8,24 @@ const Goal = () => {
         <div class="row g-4 my-5">
           <div
             class="col-md-6 col-lg-6   "
-            data-aos="fade-up"
+            data-aos="fade-down"
             data-aos-offset="300"
             data-aos-delay="5000"
             data-aos-duration="3000"
-            data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
-            data-aos-once="false"
+            // data-aos-easing="ease-in-out"
+            // data-aos-mirror="true"
+            // data-aos-once="false"
             // data-aos-anchor-placement="top-center"
           >
-            <div class="p-3   text-light border rounded-3 border bg-dark">
+            <div class="p-3   text-light    bg-dark">
               <h5 className="text-light">Our Goal?</h5>
-              <p>
+              <p  
+              data-aos="fade-up-right"
+              
+              
+            data-aos-offset="300"
+            data-aos-delay="5000"
+            data-aos-duration="3000">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam,
                 architecto. Voluptate nesciunt adipisci, sapiente accusantium
                 optio eaque perferendis est, dolores voluptas molestias quos!
@@ -47,7 +53,7 @@ const Goal = () => {
             data-aos-mirror="true"
             data-aos-once="false"
           >
-            <div class="p-3   align-items-center justify-content-between border rounded-3 border bg-dark">
+            <div class="p-3    bg-dark">
               <img
                 src="https://images.unsplash.com/photo-1629568853783-d94e53ee53d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80"
                 alt="" className="img-fluid"
