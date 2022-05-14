@@ -1,4 +1,5 @@
 import React from "react";
+import './Products.css'
 
 const Products = () => {
   return (
@@ -6,9 +7,9 @@ const Products = () => {
       <div className="container">
         <h1 className="text-center py-4">Our Product</h1>
         <div className="row py-4 row-cols-1 row-cols-md-3 g-4">
-          <div className="col">
+          <div className="col shadow bg-dark p-0  ">
             <div
-              className="card h-100"
+              className="card bg-danger h-100"
               data-aos="fade-right"
           //     data-aos-delay="5000"
               data-aos-duration="3000"
@@ -18,7 +19,7 @@ const Products = () => {
             >
               <img
                 src="https://images.unsplash.com/photo-1484704849700-f032a568e944?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-                className="card-img-top p-4"
+                className="card-img-top mb-4"
                 alt="..."
               />
               <div className="card-body bg-dark text-light">
@@ -34,7 +35,7 @@ const Products = () => {
               </div>
             </div>
           </div>
-          <div className="col " data-aos="fade-down" data-aos-duration="3000" 
+          <div className="col shadow " data-aos="fade-down" data-aos-duration="3000" 
           data-aos-easing="ease-in-out"
           data-aos-mirror="true"
        data-aos-once="false"
@@ -83,6 +84,7 @@ const Products = () => {
           </div>
         </div>
       </div>
+    
     </div>
   );
 };

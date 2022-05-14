@@ -14,3 +14,11 @@ nav {
   font-weight: bold;
   /* text-align: center; */
 }
+
+.navigaton .active{
+
+    color: blue;
+
+} 
+
+

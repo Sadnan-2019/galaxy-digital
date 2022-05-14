@@ -36,12 +36,20 @@ const Sliders = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
+          {/* <div class="carousel-caption  mt-n5  ">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div> */}
             <img
               src="https://images.unsplash.com/photo-1621319332247-ce870cdad56c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
               className="d-block w-100 vh-80   img-thumbnail   img-fluid"
               alt="..."
               style={{height:"550px"}}
             />
+            <div className="text">
+              <h1>please addme</h1>
+            </div>
+         
           </div>
           <div className="carousel-item">
             <img
